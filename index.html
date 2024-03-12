@@ -13,14 +13,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
 <script src="https://kit.fontawesome.com/caae7515c7.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
     <header class="header">
-        <nav class="navbar navbar-expand-lg sticky-top px-5 navbg" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-lg sticky-top px-5 navbg navbar-dark">
             <div class="container-fluid">
                 <h1 class="h1">
-                    <img src="./assets/img/viajes.svg" alt="" />
+                    <img src="./assets/img/viajes.svg" class="logo-navbar" alt="" />
                     <a class="navbar-brand" href="#">Viajes chile</a>
                 </h1>
                 <button class="navbar-toggler navbar navbar-dark" data-bs-theme="dark" type="button"
@@ -62,37 +63,52 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <h2 class="text-center border-bottom">¿QUIÉNES SOMOS?</h2>
+    <h2 class="text-center border-bottom py-5 d-none d-sm-block">¿QUIÉNES SOMOS?</h2>
     <div class="container text-center">
-        <div class="row" class="icons">
-            <div class="col">
-                <i class="fa-solid fa-plane"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aperiam ea tenetur facilis ut
+        <div class="row">
+            <div class="col d-none d-sm-block">
+                <div class="icons">
+                    <i class="fa-solid fa-plane"></i>
+                </div>
+                <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aperiam ea tenetur facilis ut
+                    qui, excepturi voluptatum quidem, sequi odio enim, alias nulla pariatur placeat obcaecati!
+                    Exercitationem quod modi ea.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+                    aperiam ea tenetur facilis ut
                     qui, excepturi voluptatum quidem, sequi odio enim, alias nulla pariatur placeat obcaecati!
                     Exercitationem quod modi ea.
                 </p>
             </div>
-            <div class="col">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vitae beatae laborum praesentium
+            <div class="col d-none d-sm-block">
+                <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vitae beatae laborum praesentium
                     distinctio
                     nostrum ad, qui mollitia explicabo amet quos provident repellendus culpa ducimus cum dolor. Eaque,
-                    assumenda numquam.
+                    assumenda numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aperiam ea
+                    tenetur facilis ut
+                    qui, excepturi voluptatum quidem, sequi odio enim, alias nulla pariatur placeat obcaecati!
+                    Exercitationem quod modi ea.
                 </p>
-                <i class="fa-solid fa-triangle-exclamation"></i>
+                <div class="icons">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                </div>
 
             </div>
-            <div class="col">
-                <i class="fa-solid fa-map-location-dot"></i>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vitae beatae laborum praesentium
+            <div class="col d-none d-sm-block">
+                <div class="icons">
+                    <i class="fa-solid fa-map-location-dot"></i>
+                </div>
+                <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos vitae beatae laborum praesentium
                     distinctio
                     nostrum ad, qui mollitia explicabo amet quos provident repellendus culpa ducimus cum dolor. Eaque,
-                    assumenda numquam.
+                    assumenda numquam.Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit aperiam ea
+                    tenetur facilis ut
+                    qui, excepturi voluptatum quidem, sequi odio enim, alias nulla pariatur placeat obcaecati!
+                    Exercitationem quod modi ea.
                 </p>
             </div>
         </div>
     </div>
     <section class="row border-secondary py-4 mx-2 justify-content-center">
-        <h2 class="text-center">DESTACADOS</h2>
+        <h2 class="text-center border-bottom py-5">DESTACADOS</h2>
         <div class="card col-12 col-md-4" style="width: 18rem;">
             <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -129,7 +145,7 @@
         </div>
     </section>
     <section>
-        <h2 class="text-center">CONTACTO</h2>
+        <h2 class="text-center border-bottom py-5">CONTACTO</h2>
         <form>
             <div class="mb-3">
                 <label for="text" class="form-label">Nombre</label>
