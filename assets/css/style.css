@@ -1,63 +1,63 @@
-*{
+*{ /* Cambio de fonts en documento */
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /* Scroll smooth para html */
 }
 .logo-navbar{
-    width: 40px;
+    width: 40px; /* Tamaño del logo en el navbar */
 }
 .navbar{
-    background-color: #778C79;
+    background-color: #778C79; /* colores en el navbar */
 
 }
 body{
-    background-color: black;
+    background-color: black; /* color de fondo */
 }
-.card{
+.card{ /* cuerpo y color de cartas */
     padding: 0;
     margin: 20px 25px;
     background-color: #778C79;
 }
 h2{
-    color: aliceblue;
+    color: aliceblue; /* color de texto en h2 */
 }
 i{
-    color: aliceblue;
+    color: aliceblue; /* color de iconos */
 }
 .icons{
-    background-color: #778C79;
+    background-color: #778C79; /* color de fondo y tamaño de iconos  */
     font-size: 25px;
 }
 p{
-    color: aliceblue;
+    color: aliceblue; /* color de parrafos */
 }
 form{
-    color: aliceblue;
+    color: aliceblue; /* color de texto */
 }
 .btn{
-background-color: #778C79;
+background-color: #778C79; /* color de fondo y margen del boton*/
 margin-left: 50px;
 }
 footer{
-    background-color: #778C79;
+    background-color: #778C79; /* color de fondo y tamaño */
     height: 10%;
 }
-.footer{
+.footer{ /* alineacion de iconos */
     display: flex;
     justify-content: space-between;
     align-items: center;
     white-space: nowrap;
     font-size: 30px;
 }
-.text-footer{
+.text-footer{ /* texto del footer, tamaño y posicion */
     display: inline;
     padding: 10px;
     margin: 20px;
 }
-.icon-footer{
+.icon-footer{ /* tamaño y separacion de iconos en footer */
     display: flex;
     gap: 15px;
     font-size: 30px;

@@ -1,6 +1,5 @@
-$(document).ready(function(){
+$(document).ready(function(){               // Funcion para alerta de rellenar los campos y mensaje enviado con exito
     $("#contacto").submit(function(event){
-      
         event.preventDefault();
         var nombre = $("#nombre").val()
         
@@ -13,4 +12,4 @@ $(document).ready(function(){
             alert("mensaje enviado con éxito")
         }
     })
-})
+}) // Cierre de funcion de alerta
