@@ -32,9 +32,9 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav ms-auto navmlinks">
                         <a class="nav-link" href="#">Inicio</a>
-                        <a class="nav-link" href="#">Quienes Somos</a>
-                        <a class="nav-link" href="#">Destacados</a>
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="#about">Quienes Somos</a>
+                        <a class="nav-link" href="#highlight">Destacados</a>
+                        <a class="nav-link" href="#contact">Contacto</a>
                     </div>
                 </div>
             </div>
@@ -63,7 +63,7 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-    <h2 class="text-center border-secondary border-bottom pt-3 mx-2 py-5 d-none d-sm-block">¿QUIÉNES SOMOS?</h2>
+    <h2 class="text-center border-secondary border-bottom pt-3 mx-2 py-5 mt-4 d-none d-sm-block" id="about">¿QUIÉNES SOMOS?</h2>
     <div class="container text-center">
         <div class="row">
             <div class="col d-none d-sm-block">
@@ -90,7 +90,7 @@
                     Exercitationem quod modi ea.
                 </p>
                 <div class="icons">
-                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <i class="fa-solid fa-mountain"></i>
                 </div>
 
             </div>
@@ -111,7 +111,7 @@
         </div>
     </div>
     <section class="row border-secondary py-4 mx-2 justify-content-center">
-        <h2 class="text-center border-secondary border-bottom pt-3 mx-2 py-5">DESTACADOS</h2>
+        <h2 class="text-center border-secondary border-bottom pt-3 mx-2 py-5" id="highlight">DESTACADOS</h2>
         <div class="card col-12 col-md-4" style="width: 18rem;">
             <img src="/assets/img/card1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
@@ -148,7 +148,7 @@
         </div>
     </section>
     <section class="contacto">
-        <h2 class="text-center border-secondary border-bottom pt-3 mx-2 py-5">CONTACTO</h2>
+        <h2 class="text-center border-secondary border-bottom pt-3 mx-2 py-5" id="contact">CONTACTO</h2>
         <form class="ps-5 mb-3">
             <div class="mb-3 px-5">
                 <label for="text" class="form-label">Nombre</label>
@@ -159,12 +159,9 @@
                 <input type="text" class="form-control" id="asunto-contacto">
             </div>
             <div class="mb-3 px-5">
-                <label for="">
-                    <label for="text" class="form-label">Mensaje</label>
-                    <br>
-                    <textarea name="" id="" cols="30" rows="5"></textarea>
-                </label>
-            </div>
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+              </div>
             <button type="button" class="btn btn-primary btn-outline-light">Enviar</button>
         </form>
     </section>
