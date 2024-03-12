@@ -32,4 +32,9 @@ p{
 }
 form{
     color: aliceblue;
+    display: inline-;
+}
+.btn{
+background-color: #778C79;
+margin-left: 50px;
 }
