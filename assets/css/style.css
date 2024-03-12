@@ -4,7 +4,7 @@
     font-style: normal;
 }
 .logo-navbar{
-    width: 24px;
+    width: 40px;
 }
 .navbar{
     background-color: #778C79;
@@ -15,7 +15,7 @@ body{
 }
 .card{
     padding: 0;
-    margin: 10px 10px;
+    margin: 20px 25px;
     background-color: #778C79;
 }
 h2{
@@ -32,9 +32,29 @@ p{
 }
 form{
     color: aliceblue;
-    display: inline-;
 }
 .btn{
 background-color: #778C79;
 margin-left: 50px;
+}
+footer{
+    background-color: #778C79;
+    height: 10%;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 30px;
+}
+.text-footer{
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+}
+.icon-footer{
+    display: flex;
+    gap: 15px;
+    font-size: 30px;
 }
